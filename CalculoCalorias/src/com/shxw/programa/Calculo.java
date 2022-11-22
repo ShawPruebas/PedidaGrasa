@@ -9,7 +9,7 @@ public class Calculo extends Ventana{
 		
 		float peso = Float.parseFloat(p);
 		float grasa = Float.parseFloat(g);
-		
+		    
 		float actividad = 0;
 		
 		switch (a) {
@@ -46,7 +46,7 @@ public class Calculo extends Ventana{
 		String resultado = "Pedida semanal de peso: " + String.valueOf(sCalorias) + "%\n" +
 						"Perdida calorias diaria: " + String.valueOf(diariaSCalorias) + " calorias\n" +
 						"Perdida calorias semanal: " + String.valueOf(totalSCalorias) + " calorias\n" +
-						"Calorias a consumir por día: " + String.valueOf(consumo) + " calorias\n" +
+						"Calorias a consumir por dÃ­a: " + String.valueOf(consumo) + " calorias\n" +
 						"Proteinas diarias a consumir: " + String.valueOf(proteina) + " gramos" ;
 	
 		
